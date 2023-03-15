@@ -23,12 +23,6 @@ import okhttp3.ResponseBody;
 
 public class MainActivity extends AppCompatActivity implements TriviaInfoFragment.ITriviaInfo, TriviaFragment.ITrivia, RegisterFragment.RegInterface, LoginFragment.LoginInterface {
 
-    /**
-     * Assignment #MidTerm Makeup
-     * MainActivity.java
-     * Sneh Jain
-     */
-
     public final String BASE_URL = "https://www.theappsdr.com/api/";
 
     ProgressDialog dialog;
